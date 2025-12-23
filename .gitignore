@@ -1,0 +1,37 @@
+# .NET / Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+**/bin/
+**/obj/
+TestResults/
+
+# Logs and temp
+*.log
+logs/
+server-log.txt
+src/Server/app-run.log
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Tooling caches
+/.ionide/
+/.idea/
+/.cache/
+
+# Publish artifacts
+publish/
+
+# Node
+node_modules/
+
+# OS files
+Thumbs.db
+.DS_Store
